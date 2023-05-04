@@ -1,0 +1,37 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.app main {
+	min-height: 100vh;
+	flex: 1 1;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background-color: gray;
+}
+
+.header nav {
+	display: flex;
+	gap: 10px;
+}
+
+a.active {
+	color: red;
+	font-weight: bold;
+}
+
+a.active:hover {
+	color: red;
+}
+
+.user-list {
+	display: grid;
+	gap: 10px;
+}
